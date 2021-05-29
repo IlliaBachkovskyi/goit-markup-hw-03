@@ -10,14 +10,17 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="section-header">
-      <div class="container">
-        <a href="#" class="logo-header"><span class="logo-first-part">Web</span>Studio</a>
+      <div class="container header-container">
+        <a href="#" class="logo-header"
+          ><span class="logo-first-part">Web</span>Studio</a
+        >
         <nav>
-          <ul class="list-header-nav">
+          <ul class="header-nav-list">
             <li>
               <a href="./index.html" class="link-header">Студия</a>
             </li>
@@ -25,20 +28,30 @@
               <a href="" class="link-header highlight-link">Портфолио</a>
             </li>
             <li>
-              <a href="" class="link-header">Контакты</a>
+              <a href="#" class="link-header">Контакты</a>
             </li>
           </ul>
         </nav>
-        <a href="mailto:info@devstudio.com" class="link-header mail-header">info@devstudio.com</a>
-        <a href="tel:+380961111111" class="link-header tel-header">+38 096 111 11 11</a>
+        <ul class="contacts-list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="link-header mail-header"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="link-header tel-header"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <main>
-      <section>
+      <section class="section-portfolio">
         <!-- Портфолио -->
         <div class="container">
           <h2 class="visually-hidden">портфолио</h2>
-          <ul class="portfolio-selection-list">
+          <ul class="portfolio-button-list">
             <li>
               <button class="sing-link-portfolio" type="button">Все</button>
             </li>
@@ -55,7 +68,7 @@
               <button class="sing-link-portfolio" type="button">Маркетинг</button>
             </li>
           </ul>
-          <ul class="section-portfolio-icon">
+          <ul class="list-portfolio-icon">
             <li class="portfolio-icon">
               <a href="">
                 <img src="./images/tehnokryak.jpg" alt="Технокряк" width="370" height="294" />
@@ -77,13 +90,9 @@
             </li>
             <li class="portfolio-icon">
               <a href="">
-                <figure>
                   <img src="./images/seafood.jpg" alt="Ресторан Seafood" width="370" height="294" />
-                  <figcaption>
                     <h3>Ресторан Seafood</h3>
                     <p>Приложение</p>
-                  </figcaption>
-                </figure>
               </a>
             </li>
             <li class="portfolio-icon">
@@ -148,10 +157,12 @@
       </section>
     </main>
     <footer class="section-footer">
-      <div class="container">
-        <a href="#" class="logo-footer"><span class="logo-first-part">Web</span>Studio</a>
+      <div class="container footer-container">
+        <a href="#" class="logo-footer"
+          ><span class="logo-first-part">Web</span>Studio</a
+        >
         <address>
-          <ul>
+          <ul class="footer-list">
             <li>
               <a
                 href="https://goo.gl/maps/GkJHz6BWag29Yt4w9"
@@ -163,12 +174,16 @@
               </a>
             </li>
             <li>
-              <a href="mailto:info@example.com" class="link-footer link-footer-transparensy"
+              <a
+                href="mailto:info@example.com"
+                class="link-footer link-footer-transparensy"
                 >info@example.com</a
               >
             </li>
             <li>
-              <a href="tel:+380991111111" class="link-footer link-footer-transparensy"
+              <a
+                href="tel:+380991111111"
+                class="link-footer link-footer-transparensy"
                 >+38 099 111 11 11</a
               >
             </li>
