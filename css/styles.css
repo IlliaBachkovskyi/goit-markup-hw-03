@@ -53,6 +53,11 @@ p {
   padding: 0 15px;
 }
 
+.section {
+  padding: 94px 0;
+  margin: 0 auto;
+}
+
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -226,7 +231,6 @@ p {
 .section-our-team {
   padding-top: 94px;
   padding-bottom: 94px;
-  /* text-align: center; */
   background-color: var(--background-color-our-team-section);
 }
 .section-our-team h2 {
@@ -350,7 +354,6 @@ p {
 .portfolio-icon {
   display: flex;
   background: var(--body-color);
-  border: 1px solid var(--border-line-color);
   width: 370px;
   margin-bottom: 30px;
 }
@@ -368,20 +371,22 @@ p {
   width: 100%;
   height: auto;
 }
+.portfolio-title-icon {
+  padding: 20px 24px;
+  border-right: 1px solid var(--border-line-color);
+  border-bottom: 1px solid var(--border-line-color);
+  border-left: 1px solid var(--border-line-color);
+}
 .portfolio-icon h3 {
   font-size: 18px;
   line-height: 2;
   color: var(--main-text-color);
-  margin-top: 20px;
   margin-bottom: 4px;
-  margin-left: 24px;
 }
 .portfolio-icon p {
   font-size: 16px;
   line-height: 1.875;
   color: var(--description-text-color);
-  margin-bottom: 20px;
-  margin-left: 24px;
 }
 /* icon-decoration-Portfolio */
 
