@@ -22,7 +22,6 @@ html {
 }
 
 body {
-  width: 1600px;
   font-family: var(--main-fonts);
   font-style: normal;
   color: var(--main-text-color);
